@@ -4,8 +4,8 @@ const GlobalStyle = createGlobalStyle<{dark: boolean}>`
   body {
     ${({dark}) => dark ?  
      `
-     background-color: black;
-     color: dodgerblue;
+      background-color: black;
+      color: dodgerblue;
     `
     : 
     `
@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle<{dark: boolean}>`
       color: #151515;
     `
     };
+    font-family: helvetica;
   }
 `;
 export default GlobalStyle;
