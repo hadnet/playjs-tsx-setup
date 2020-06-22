@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import GlobalStyle from './globalStyle';
-import Logo from './logo'
+import Logo from './Logo'
 
 type P = {}
 type S = {}
