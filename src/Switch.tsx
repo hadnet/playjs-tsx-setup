@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Switch from 'react-switch';
-import {IoIosSunny, IoIosMoon} from 'react-icons/io'
+import {IoIosSunny, IoIosMoon} from 'react-icons/io';
 
 type P = {
   onChange: () => void;
