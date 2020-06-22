@@ -23,7 +23,9 @@
     "url-loader": "^2.0.0",
     "webpack": "4.x.x",
     "webpack-dev-middleware": "3.7.x",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "react-switch": "latest",
+    "react-icons": "latest"
   },
   "scripts": {
     "ts": "tsc"
