@@ -1,17 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import GlobalStyle from './GlobalStyle';
-import Logo from './Logo'
+import Logo from './Logo';
+import Switch from './Switch';
 
-type P = {}
-type S = {}
+type S = {
+  checked: boolean;
+}
 
-class App extends React.PureComponent<P,S> {
+class App extends React.PureComponent<{}, S> {
+  state = {
+    checked: true
+  }
+  
+  handleChange =() => {
+    this.setState(state => ({checked: !state.checked}));
+  }
+  
   render() {
+    let {checked} = this.state;
     return (
       <>
-      <GlobalStyle dark />
-      <Logo />
+        <Switch onChange={this.handleChange} checked={checked} />
+        <GlobalStyle dark={checked} />
+        <Logo />
       </>
     )
   }
