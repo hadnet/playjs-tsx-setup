@@ -1,16 +1,21 @@
 {
   "compilerOptions": {
-  "watch": true,
-  "noEmit": true,
-  "esModuleInterop": true,
-  "sourceMap": false,
-  "noImplicitAny": true,
-  "moduleResolution": "node",
-  "module": "es6",
-  "target": "es2018",
-  "lib": ["es2018", "dom"],
-  "jsx": "preserve",
-  "experimentalDecorators": true
+    "watch": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "module": "es6",
+    "target": "es2018",
+    "lib": ["es2018", "dom"],
+    "jsx": "preserve",
+    "experimentalDecorators": true,
+    "types": [
+      "react",
+      "react-dom",
+      "styled-components"
+    ]
   },
   "rootDir": "src",
   "include": ["**/*.ts", "**/*.tsx"]
