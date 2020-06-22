@@ -15,8 +15,8 @@ export default class extends React.PureComponent<P> {
     return (
       <Label>
         <Switch {...this.props} 
-          checkedIcon={<IoIosMoon style={{position: "absolute", top: 6, left: 6}}/>} 
-          uncheckedIcon={<IoIosSunny style={{position: "absolute", top: 6, left: 6}}/>} 
+          checkedIcon={<Moon />} 
+          uncheckedIcon={<Sunny />} 
         />
       </Label>
     );
@@ -34,4 +34,15 @@ Caption = styled.span`
   margin-left: 8px;
   font-size: 14px;
   font-weight: 600;
+`,
+iconStyle = `
+  position: absolute; 
+  top: 6px;
+  left: 6px;
+`,
+Moon = styled(IoIosMoon)`
+ ${iconStyle}
+`,
+Sunny = styled(IoIosSunny)`
+  ${iconStyle}
 `;
