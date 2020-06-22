@@ -1,3 +1,3 @@
-# playjstsxsetup
-Just a setup for use *.tsx with Play.Js
-#### put all files in the main project folder
+# Play.js TS setup
+Just a setup in order to use TS and *.tsx files in Play.Js
+#### clone it 
