@@ -1,6 +1,7 @@
 {
   "version": "1.0.0",
   "devDependencies": {
+    "typescript": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@babel/plugin-proposal-decorators": "latest",
@@ -21,7 +22,7 @@
     "url-loader": "^2.0.0",
     "webpack": "4.x.x",
     "webpack-dev-middleware": "3.7.x",
-    "typescript": "latest"
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "ts": "tsc"
