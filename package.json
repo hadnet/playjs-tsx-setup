@@ -4,7 +4,7 @@
     "typescript": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "@types/styled-components": "latest",
+    "@types/styled-components": "4.1.8",
     "@babel/plugin-proposal-decorators": "latest",
     "@babel/plugin-proposal-class-properties": "latest"
   },
