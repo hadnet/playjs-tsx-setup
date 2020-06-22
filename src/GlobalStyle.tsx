@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle<{dark: boolean}>`
     ${({dark}) => dark ?  
      `
       background-color: black;
-      color: dodgerblue;
+      color: snow;
     `
     : 
     `
